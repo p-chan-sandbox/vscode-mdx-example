@@ -1,0 +1,17 @@
+{
+  "extends": "@stardust-configs/tsconfig/next.json",
+  "compilerOptions": {
+    // TODO: Uncomment next line
+    // "checkJs": true,
+    "plugins": [{ "name": "next" }]
+  },
+  "include": [
+    // TODO: Uncomment next line
+    // "**/*.mdx",
+    "**/*.ts",
+    "**/*.tsx",
+    ".next/types/**/*.ts",
+    "next-env.d.ts"
+  ],
+  "exclude": ["node_modules"]
+}
